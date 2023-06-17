@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cuanto pasó?</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cuanto tiempo pasó desde?</h1>
+        <label for="date">Fecha:</label>
+        <input type="date" id="date">
+        <label for="unit">Elige una unidad de tiempo:</label>
+        <select id="unit">
+            <option value="years">Años</option>
+            <option value="months">Meses</option>
+            <option value="weeks">Semanas</option>
+            <option value="days">Días</option>
+            <option value="hours">Horas</option>
+            <option value="minutes">Minutos</option>
+            <option value="seconds">Segundos</option>
+        </select>
+        <button onclick="calculateAge()">Calcular</button>
+        <div id="result" class="result-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
