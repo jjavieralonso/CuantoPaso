@@ -6,11 +6,19 @@
 
 body {
   background-color: #333;
-  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.redes {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+a{
+  color: white;
 }
 
 .container {
